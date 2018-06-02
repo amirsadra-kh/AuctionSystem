@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/AuctionSystem"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="Tomcat 8.0.28" scope="PROVIDED"/>
+	<lib name="mysql-connector-java-5.1.37-bin.jar" scope="PROVIDED"/>
+	<lib name="appengine-tools-api.jar" scope="PROVIDED">
+		<srcroot url="jar://$USER_HOME$/Documents/Google App Engine SDK 1.9.3/lib/appengine-tools-api.jar!/com/google/appengine/repackaged/com/google/common/base/super"/>
+		<srcroot url="jar://$USER_HOME$/Documents/Google App Engine SDK 1.9.3/lib/appengine-tools-api.jar!/com/google/appengine/repackaged/com/google/common/collect/super"/>
+		<srcroot url="jar://$USER_HOME$/Documents/Google App Engine SDK 1.9.3/lib/appengine-tools-api.jar!/com/google/appengine/repackaged/com/google/common/math/super"/>
+		<srcroot url="jar://$USER_HOME$/Documents/Google App Engine SDK 1.9.3/lib/appengine-tools-api.jar!/com/google/appengine/repackaged/com/google/common/primitives/super"/>
+	</lib>
+	<lib name="appengine-remote-api.jar" scope="PROVIDED">
+		<srcroot url="jar://$USER_HOME$/Documents/Google App Engine SDK 1.9.3/lib/appengine-remote-api.jar!/com/google/appengine/repackaged/com/google/common/base/super"/>
+		<srcroot url="jar://$USER_HOME$/Documents/Google App Engine SDK 1.9.3/lib/appengine-remote-api.jar!/com/google/appengine/repackaged/com/google/common/collect/super"/>
+		<srcroot url="jar://$USER_HOME$/Documents/Google App Engine SDK 1.9.3/lib/appengine-remote-api.jar!/com/google/appengine/repackaged/com/google/common/math/super"/>
+		<srcroot url="jar://$USER_HOME$/Documents/Google App Engine SDK 1.9.3/lib/appengine-remote-api.jar!/com/google/appengine/repackaged/com/google/common/primitives/super"/>
+	</lib>
+	<lib name="AppEngine Dev 1.9.30" scope="PROVIDED"/>
+	<lib name="commons-fileupload-1.3.1" scope="PROVIDED"/>
+	<levels>
+		<level name="Tomcat 8.0.28" value="application_server_libraries"/>
+		<level name="mysql-connector-java-5.1.37-bin" value="project"/>
+		<level name="AppEngine Dev 1.9.30" value="application_server_libraries"/>
+		<level name="commons-fileupload-1.3.1" value="project"/>
+	</levels>
+</component>
